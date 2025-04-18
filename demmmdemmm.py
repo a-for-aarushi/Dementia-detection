@@ -130,3 +130,6 @@ async def analyze_voice(file: UploadFile = File(...)):
             os.remove(temp_audio_path)
 
     return result
+@app.get("/")
+def home():
+    return {"message": "Hello from FastAPI on Render!"}
