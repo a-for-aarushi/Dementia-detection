@@ -8,7 +8,7 @@ import tempfile
 import os
 
 # Set AssemblyAI API key
-aai.settings.api_key = "0bf39fe2e1dd44ffa91dff2aadbff76a"  # Replace with your API key
+aai.settings.api_key = "API KEY"  # Replace with your API key
 
 # Classification logic
 def classify_cognitive_risk(pause_rate, repetition_rate, wpm, pitch_std, incomplete_rate):
